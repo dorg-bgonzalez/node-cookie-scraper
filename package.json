@@ -1,0 +1,17 @@
+{
+  "name": "node_cookie_scrape",
+  "version": "1.0.0",
+  "description": " cookie scraping using puppeteer",
+  "main": "data_stiching.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Braulio Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^2.2.0",
+    "csvtojson": "^2.0.8",
+    "json2csv": "^4.4.1",
+    "puppeteer": "^1.14.0"
+  }
+}
