@@ -1,4 +1,4 @@
-// version 1.0.0
+// version 1.1.0
 // future additions
 // 1. write failed url to a fail log with failer discription
 
@@ -12,7 +12,7 @@ const JSONToCSV = require('json2csv').parse;
 const csv = require('csv-parser');
 
 const cookieJar = [];
-fs.createReadStream('test_data_source.csv')
+fs.createReadStream('data_source.csv')
   .pipe(csv())
   .on('data', row => {
     (async () => {
